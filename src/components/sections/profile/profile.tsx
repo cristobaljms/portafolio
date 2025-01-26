@@ -9,7 +9,7 @@ export default function Profile() {
         <Image
           src={ProfilePhoto}
           alt="profile"
-          className="w-full min-w-[300] max-w-[500]"
+          className="w-full min-w-[300px] max-w-[500px]"
         />
       </div>
       <div className="text-content">
