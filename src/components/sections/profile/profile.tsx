@@ -5,7 +5,7 @@ import "./styles.css";
 export default function Profile() {
   return (
     <section className="root container mx-auto px-5">
-      <div className="flex items-center">
+      <div className="flex items-center mb-12 lg:mb-0">
         <Image
           src={ProfilePhoto}
           alt="profile"

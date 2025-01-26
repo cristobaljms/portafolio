@@ -3,8 +3,10 @@ import DifferenziamoPoster from "@/assets/projects/diffenrenziamo/poster.webp";
 import SomnioSoftwarePoster from "@/assets/projects/somnio-software/poster.webp";
 import RedesHidraulicasPoster from "@/assets/projects/redes-hidraulicas/poster.webp";
 import ResellersPanelPoster from "@/assets/projects/resellers-panel/poster.webp";
+import MerchantsPanelPoster from "@/assets/projects/merchants-panel/poster.webp";
 import VenappPoster from "@/assets/projects/venapp/poster.webp";
 import Telemedicina24Poster from "@/assets/projects/telemedicina/poster.webp";
+import KoyagPoster from "@/assets/projects/koyag/poster.webp";
 import Link from "next/link";
 
 type Work = {
@@ -22,7 +24,7 @@ export default function Work() {
     {
       title: "Somnio Software Landing page",
       img: SomnioSoftwarePoster,
-      link: "/work/somniosoftware",
+      link: "/work/somnio-software",
     },
     {
       title: "Redes Hidraulicas",
@@ -30,9 +32,14 @@ export default function Work() {
       link: "/work/redes-hidraulicas",
     },
     {
-      title: "Panel de resellers",
+      title: "Panel de Resellers",
       img: ResellersPanelPoster,
-      link: "/work/resellers",
+      link: "/work/resellers-panel",
+    },
+    {
+      title: "Panel de Merchants",
+      img: MerchantsPanelPoster,
+      link: "/work/merchants-panel",
     },
     {
       title: "Venapp Landing page",
@@ -43,6 +50,11 @@ export default function Work() {
       title: "Telemedicina24 Landing page",
       img: Telemedicina24Poster,
       link: "/work/telemedicina24",
+    },
+    {
+      title: "Koyag",
+      img: KoyagPoster,
+      link: "/work/koyag",
     },
   ];
 

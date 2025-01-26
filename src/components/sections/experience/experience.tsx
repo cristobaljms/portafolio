@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Experience() {
   return (
     <section
@@ -13,7 +15,7 @@ export default function Experience() {
             Iugo | Septiembre 2021 - actualidad
           </h3>
           <h4 className="font-semibold mb-1">FrontEnd Developer</h4>
-          <p>
+          <p className="mb-2">
             Desarrollo y mantenimiento de módulos y funcionalidades para los
             sistemas internos de AstroPay, incluyendo el panel de merchants y el
             panel de resellers. Utilicé tecnologías como React.js, TypeScript,
@@ -22,19 +24,38 @@ export default function Experience() {
             Iugo, contribuyendo al desarrollo de soluciones innovadoras y
             eficientes.
           </p>
+          <ul className="list-disc pl-8">
+            <li>
+              <Link className="text-blue-500" href="/work/resellers-panel">
+                Panel de resellers
+              </Link>
+            </li>
+            <li>
+              <Link className="text-blue-500" href="/work/merchants-panel">
+                Panel de merchants
+              </Link>
+            </li>
+          </ul>
         </article>
         <article className="mb-8">
           <h3 className="font-semibold text-xl mb-1">
             Somnio Software | Enero 2021 - Julio 2022
           </h3>
           <h4 className="font-semibold mb-1">FrontEnd Developer</h4>
-          <p>
+          <p className="mb-2">
             Colaboré en un equipo multidisciplinario desempeñando el rol de
-            desarrollador Frontend para crear y optimizar el sitio web [Somnio
-            Software](https://somniosoftware.com/). Utilicé tecnologías como
-            React.js, Next.js, Sass y Tailwind CSS para garantizar un diseño
-            atractivo, funcional y responsivo.
+            desarrollador Frontend para crear y optimizar el sitio web Somnio
+            Software. Utilicé tecnologías como React.js, Next.js, Sass y
+            Tailwind CSS para garantizar un diseño atractivo, funcional y
+            responsivo.
           </p>
+          <ul className="list-disc pl-8">
+            <li>
+              <Link className="text-blue-500" href="/work/somnio-software">
+                Somnio Software landing page
+              </Link>
+            </li>
+          </ul>
         </article>
         <article className="mb-8">
           <h3 className="font-semibold text-xl mb-1">
@@ -53,7 +74,7 @@ export default function Experience() {
             Koyag | Diciembre 2019 - Septiembre 2020
           </h3>
           <h4 className="font-semibold mb-1">FullStack Developer</h4>
-          <p>
+          <p className="mb-2">
             Como desarrollador Full Stack, participé en el desarrollo de
             diversos módulos para la plataforma digital Koyag, un CRM diseñado
             en Angular 9 y Laravel 6. Esta herramienta facilita y automatiza la
@@ -61,37 +82,89 @@ export default function Experience() {
             negocios, ofreciendo soluciones eficientes y personalizadas para los
             usuarios.
           </p>
+          <ul className="list-disc pl-8">
+            <li>
+              <Link className="text-blue-500" href="/work/koyag">
+                Koyag
+              </Link>
+            </li>
+          </ul>
         </article>
-        <article className="mb-8">
+        <article>
           <h3 className="font-semibold text-xl mb-1">
             Freelance | 2017 - 2022
           </h3>
           <h4 className="font-semibold mb-1">Freelance Developer</h4>
-          <p>
+          <p className="mb-2">
             Como freelance he trabajado en diversos proyectos, entre ellos
             están:
           </p>
-          <ul>
+          <ul className="list-disc pl-8">
             <li>
-              2017 - Desarrollo de features en https://www.fised4good.com/
-              (React.js, Next.js)
+              <p>
+                2017 - Desarrollo de features en{" "}
+                <Link
+                  className="text-blue-500"
+                  href="/work/differenziamocolcoure"
+                >
+                  Differenziamo Col Coure
+                </Link>{" "}
+                (React.js, SemanticUI)
+              </p>
             </li>
             <li>
-              2017 - Sistema de administración y calculo de redes hidráulicas
-              (Django)
+              <p>
+                2017 - Desarrollo de features en{" "}
+                <Link
+                  className="text-blue-500"
+                  href="https://www.fised4good.com/"
+                  target="_blank"
+                >
+                  https://www.fised4good.com/
+                </Link>{" "}
+                (React.js, Bootstrap)
+              </p>
             </li>
             <li>
-              2021 - Desarrollo de https://venapp.com/ (React.js, Next.js).
+              <p>
+                2017 - Desarrollo{" "}
+                <Link className="text-blue-500" href="/work/redes-hidraulicas">
+                  Sistema de administración y calculo de redes hidráulicas
+                </Link>{" "}
+                (Django)
+              </p>
             </li>
             <li>
-              2022 - Desarrollo de https://telemedicina-puce.vercel.app/
-              (React.js, Next.js, Tailwind).
+              <p>
+                2021 - Desarrollo de{" "}
+                <Link className="text-blue-500" href="/work/venapp">
+                  VenApp landing page
+                </Link>{" "}
+                (React.js, Next.js).
+              </p>
             </li>
             <li>
-              2022 - Como desarrollador Backend, fui el encargado del desarrollo
-              de la API de una app llamada Pleksus:
-              https://github.com/cristobaljms/Pleksus-Api/ usando (Nest.js,
-              MongoDB)
+              <p>
+                2022 - Desarrollo de{" "}
+                <Link className="text-blue-500" href="/work/telemedicina24">
+                  Telemedicina24 landing page
+                </Link>{" "}
+                (React.js, Next.js, Tailwind).
+              </p>
+            </li>
+            <li>
+              <p>
+                2022 - Como desarrollador Backend, fui el encargado del
+                desarrollo de la API de una app llamada Pleksus usando (Nest.js,
+                MongoDB)
+              </p>
+              <Link
+                className="text-blue-500"
+                href="https://github.com/cristobaljms/Pleksus-Api/"
+                target="_blank"
+              >
+                https://github.com/cristobaljms/Pleksus-Api/
+              </Link>
             </li>
           </ul>
         </article>
