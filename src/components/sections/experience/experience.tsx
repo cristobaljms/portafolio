@@ -163,7 +163,7 @@ export default function Experience() {
                 href="https://github.com/cristobaljms/Pleksus-Api/"
                 target="_blank"
               >
-                https://github.com/cristobaljms/Pleksus-Api/
+                Repositorio en GitHub
               </Link>
             </li>
           </ul>
