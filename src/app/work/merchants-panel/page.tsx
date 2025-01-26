@@ -10,7 +10,7 @@ import Image6 from "@/assets/projects/merchants-panel/6.webp";
 
 export default function Page() {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto px-5">
       <Navbar2 />
       <ul className="mb-4">
         <li>

@@ -11,7 +11,7 @@ import Image7 from "@/assets/projects/resellers-panel/7.webp";
 
 export default function Page() {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto px-5">
       <Navbar2 />
       <ul className="mb-4">
         <li>
