@@ -15,13 +15,13 @@ export default function Page() {
       <Navbar2 />
       <ul className="mb-4">
         <li>
-          Descripción: Desarrollo de un proyecto enfocado en el cálculo de
-          métricas para redes hidráulicas, empleando el algoritmo genético y el
-          método del gradiente para optimizar el análisis y la resolución de
-          problemas complejos en sistemas de distribución de fluidos.
+          Desarrollo de un proyecto enfocado en el cálculo de métricas para
+          redes hidráulicas, empleando el algoritmo genético y el método del
+          gradiente para optimizar el análisis y la resolución de problemas
+          complejos en sistemas de distribución de fluidos.
         </li>
         <li>
-          Url:
+          <b>Url:</b>
           <Link
             href="https://github.com/cristobaljms/Red-Hidraulica"
             target="_blank"
@@ -29,7 +29,9 @@ export default function Page() {
             https://github.com/cristobaljms/Red-Hidraulica
           </Link>
         </li>
-        <li>Tecnologías: Django, Python, Numpy, Celery, Bootstrapp, JQuery</li>
+        <li>
+          <b>Tecnologías:</b> Django, Python, Numpy, Celery, Bootstrapp, JQuery
+        </li>
       </ul>
       <div>
         <Image src={Poster} alt="" />

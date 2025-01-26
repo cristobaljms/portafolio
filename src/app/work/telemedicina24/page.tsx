@@ -11,14 +11,20 @@ export default function Page() {
     <main className="container mx-auto px-5">
       <Navbar2 />
       <ul className="mb-4">
-        <li>Descripción: Landing page para la aplicación de Telemedicina24</li>
+        <li>Landing page para la aplicación de Telemedicina24</li>
         <li>
-          Url:
-          <Link href="https://telemedicina-puce.vercel.app/" target="_blank">
+          <b>Url:</b>
+          <Link
+            className="text-blue-500"
+            href="https://telemedicina-puce.vercel.app/"
+            target="_blank"
+          >
             https://telemedicina-puce.vercel.app/
           </Link>
         </li>
-        <li>Tecnologías: Next.js, Tailwindcss</li>
+        <li>
+          <b>Tecnologías:</b> Next.js, Tailwindcss
+        </li>
       </ul>
       <div>
         <Image src={Poster} alt="" />

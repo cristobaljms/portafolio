@@ -13,7 +13,7 @@ export default function Page() {
       <ul className="mb-4">
         <li>
           <p>
-          Como desarrollador Full Stack, participé en el desarrollo de
+            Como desarrollador Full Stack, participé en el desarrollo de
             diversos módulos para la plataforma digital Koyag, un CRM diseñado
             en Angular 9 y Laravel 6. Esta herramienta facilita y automatiza la
             planificación de actividades de networking y convenciones de
