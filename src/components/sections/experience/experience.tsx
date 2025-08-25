@@ -4,12 +4,36 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="flex flex-col justify-start items-end py-12"
+      className="flex flex-col justify-start items-end py-20"
     >
       <div className="pr-[15%] border-b-4 border-black w-auto mb-12">
         <h2 className="text-4xl">Experiencia</h2>
       </div>
       <div className="container mx-auto px-5">
+        <article className="mb-8">
+          <h3 className="font-semibold text-xl mb-1">
+            Wuaky | Enero 2025 - actualidad
+          </h3>
+          <h4 className="font-semibold mb-1">Creador y Desarrollador Full Stack</h4>
+          <p className="mb-2">
+            Desarrollo completo de Wuaky, un portal de anuncios clasificados y
+            marketplace innovador. Utilizé tecnologías modernas como Next.js,
+            Tailwind CSS, Shadcn/UI y Supabase para crear una plataforma
+            completa y escalable que facilita la compra y venta de productos
+            entre usuarios.
+          </p>
+          <ul className="list-disc pl-8">
+            <li>
+              <Link 
+                className="text-blue-500" 
+                href="https://wuaky.com"
+                target="_blank"
+              >
+                Wuaky - Portal de anuncios clasificados
+              </Link>
+            </li>
+          </ul>
+        </article>
         <article className="mb-8">
           <h3 className="font-semibold text-xl mb-1">
             Iugo | Septiembre 2021 - actualidad

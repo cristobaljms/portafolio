@@ -61,7 +61,7 @@ export default function Work() {
   return (
     <section
       id="work"
-      className="flex flex-col justify-start items-start py-12"
+      className="flex flex-col justify-start items-start py-20"
     >
       <div className="pl-[15%] border-b-4 border-black w-auto mb-12">
         <h2 className="text-4xl">Trabajo</h2>

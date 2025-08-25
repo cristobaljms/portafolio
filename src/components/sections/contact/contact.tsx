@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex flex-col justify-start items-start py-12"
+      className="flex flex-col justify-start items-start py-20"
     >
       <div className="pl-[15%] border-b-4 border-black w-auto mb-12">
         <h2 className="text-4xl">Contacto</h2>
